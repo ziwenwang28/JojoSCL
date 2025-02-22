@@ -69,7 +69,7 @@ pip install -r requirements.txt
 
 
 
-## Running JojoSCL
+## Training JojoSCL
 
 Our code supports both `.h5` and `.mat` file types. To run JojoSCL with your dataset, follow these steps:
 
