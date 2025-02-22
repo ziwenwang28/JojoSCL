@@ -4,7 +4,7 @@
 ## Table of Contents
 - [Overview](#overview)
 - [Clustering Performance Comparison](#clustering-performance-comparison)
-- [Installation](#installation)
+- [Required Installation](#required-installation)
   - [For GPU (CUDA-enabled)](#for-gpu-cuda-enabled)
   - [For CPU-only](#for-cpu-only)
 - [Running JojoSCL](#running-jojoscl)
@@ -43,7 +43,7 @@ To address these issues, JojoSCL introduces a novel self-supervised contrastive 
 
 
 
-## Installation
+## Required Installation
 
 Our minimal dependency set is as follows:
 
