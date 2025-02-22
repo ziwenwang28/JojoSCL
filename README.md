@@ -19,6 +19,7 @@ In this paper, we present **JojoSCL: Shrinkage Contrastive Learning for single-c
 
 To address these issues, JojoSCL introduces a novel self-supervised contrastive learning framework that integrates a hierarchical Bayesian shrinkage estimator. By leveraging Stein’s Unbiased Risk Estimate (SURE) for optimization, our method refines both instance-level and cluster-level contrastive losses, leading to enhanced clustering performance across diverse scRNA-seq datasets.
 
+(Due to compression in the preview image, click the flowchart below to view JojoSCL's main flowchart in high resolution.)
 
 <img src="https://github.com/user-attachments/assets/599844d4-c7a3-43f9-87db-34ddaa46c515" alt="MainFlowchart" width="600">
 
