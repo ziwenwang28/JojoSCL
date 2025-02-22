@@ -2,7 +2,7 @@
 
 
 ## Table of Contents
-- [Overview](#overview)
+- [Model Overview](#model-overview)
 - [Clustering Performance Comparison](#clustering-performance-comparison)
 - [Required Installation](#required-installation)
   - [For GPU (CUDA-enabled)](#for-gpu-cuda-enabled)
@@ -13,7 +13,7 @@
 - [Citation](#citation)
 
 
-## Overview
+## Model Overview
 
 In this paper, we present **JojoSCL: Shrinkage Contrastive Learning for single-cell RNA sequence Clustering**. Single-cell RNA sequencing (scRNA-seq) has revolutionized our understanding of cellular processes by enabling gene expression analysis at the individual cell level. However, the high dimensionality and inherent sparsity of scRNA-seq data present significant challenges for traditional clustering methods.
 
