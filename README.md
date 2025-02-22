@@ -7,7 +7,7 @@
 - [Required Installation](#required-installation)
   - [For GPU (CUDA-enabled)](#for-gpu-cuda-enabled)
   - [For CPU-only](#for-cpu-only)
-- [Running JojoSCL](#running-jojoscl)
+- [Training JojoSCL](#training-jojoscl)
 - [Data Preprocessing](#data-preprocessing)
 - [Recommended Configurations of JojoSCL](#recommended-configurations-of-jojoscl)
 - [Citation](#citation)
