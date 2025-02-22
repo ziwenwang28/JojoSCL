@@ -135,8 +135,6 @@ If you use this work in your research, please cite our paper:
   booktitle={2024 IEEE International Conference on Bioinformatics and Biomedicine (BIBM)}, 
   title={JojoSCL: Shrinkage Contrastive Learning for single-cell RNA sequence Clustering*}, 
   year={2024},
-  volume={},
-  number={},
   pages={2659-2666},
   keywords={Sequential analysis;RNA;Biological system modeling;Source coding;Estimation;Contrastive learning;Robustness;Bayes methods;Gene expression;Dispersion;ScRNA-seq Clustering;Contrastive Learning;Bayesian hierarchical modeling;Shrinkage estimator},
   doi={10.1109/BIBM62325.2024.10821870}
