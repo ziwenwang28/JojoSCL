@@ -10,6 +10,7 @@
 - [Training JojoSCL](#training-jojoscl)
 - [Data Preprocessing](#data-preprocessing)
 - [Recommended Configurations of JojoSCL](#recommended-configurations-of-jojoscl)
+- [Datasets for Testing](#datasets-for-testing)
 - [Citation](#citation)
 
 
@@ -125,6 +126,11 @@ Many settings for training and model configuration are managed in `config.py`. T
 
 These arguments allow for flexible configuration of the training process and are parsed using Python's `argparse` module. For contrastive learning, larger batch sizes tend to improve training stability. In our experiments, we use a batch size of 200 for moderate datasets such as `10X_PBMC` and `adam`, and a batch size of 2,000 for larger datasets such as `Macosko` and `Shekhar`.
 
+
+## Datasets for Testing
+1. **Open the Google Drive link**: [Dataset Folder](https://drive.google.com/drive/folders/1dS0VR2qzmoQW9IjdbmRcF-LFdIuDT3YR?usp=sharing).
+2. **Select the files** (e.g., .h5 and .mat) and **download** them to your local machine.
+3. **Place the downloaded files** into the (`data`) folder of the code.
 
 ## Citation
 
