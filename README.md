@@ -84,7 +84,7 @@ Our code supports both `.h5` and `.mat` file types. To run JojoSCL with your dat
    - For MAT-format datasets, add the name to the `mat_datasets` list.
 
 3. **Set Up Checkpoint Saving:**  
-   Create a new folder inside the `save` directory named exactly after the dataset. This folder will be used to store checkpoints with the best results.
+   Create a directory named `save` and folders inside the `save` directory named exactly after the respective datasets, such as `save\10X_PBMC` for dataset `10X_PBMC`. This folder will be used to store checkpoints with the best results.
 
 4. **Run the Code:**  
    Use the command line to run the script. For example, to run the `10X_PBMC` dataset, execute:
