@@ -122,9 +122,9 @@ Many settings for training and model configuration are managed in `config.py`. T
 - `--select_gene`: Number of genes to select (default: 2000)
 - `--lr`: Learning rate (default: 0.2)
 - `--dropout`: Dropout rate (default: 0.9)
-- `--batch_size`: Batch size (default: 200)
+- `--batch_size`: Batch size (default: 256)
 
-These arguments allow for flexible configuration of the training process and are parsed using Python's `argparse` module. For contrastive learning, larger batch sizes tend to improve training stability. In our experiments, we use a batch size of 200 for moderate datasets such as `10X_PBMC` and `adam`, and a batch size of 2,000 for larger datasets such as `Macosko` and `Shekhar`.
+These arguments allow for flexible configuration of the training process and are parsed using Python's `argparse` module. For contrastive learning, larger batch sizes tend to improve training stability. In our experiments, we use a batch size of 256 for moderate datasets such as `10X_PBMC` and `adam`, and a batch size of 2,048 for larger datasets such as `Macosko` and `Shekhar`.
 
 
 ## Datasets for Testing
