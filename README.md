@@ -76,7 +76,7 @@ pip install -r requirements.txt
 Our code supports both `.h5` and `.mat` file types. To run JojoSCL with your dataset, follow these steps:
 
 1. **Prepare the Dataset File:**  
-   Save the dataset file (e.g. `adam.mat` or `10X_PBMC.h5`) under the `data` folder.
+   Save the dataset file (e.g. `adam.mat` or `10X_PBMC.h5`) under the `data` directory.
 
 2. **Configure the Dataset Type:**  
    In `main.py`, add the dataset name (without the extension) to the appropriate list:
@@ -84,7 +84,7 @@ Our code supports both `.h5` and `.mat` file types. To run JojoSCL with your dat
    - For MAT-format datasets, add the name to the `mat_datasets` list.
 
 3. **Set Up Checkpoint Saving:**  
-   Create a directory named `save` in the root directory and folders inside the `save` directory named exactly after the respective datasets, such as `save\10X_PBMC` for the dataset `10X_PBMC`. This folder will be used to store checkpoints with the best results.
+   Create a directory named `save` in the root directory. Then, create directories inside the `save` directory named exactly after the respective datasets, such as `save\10X_PBMC` for the dataset `10X_PBMC`. This directory will be used to store checkpoints with the best results.
 
 4. **Run the Code:**  
    Use the command line to run the script. For example, to run the `10X_PBMC` dataset, execute:
@@ -128,9 +128,9 @@ These arguments allow for flexible configuration of the training process and are
 
 
 ## Datasets for Testing
-1. **Open the Google Drive link**: [Dataset Folder](https://drive.google.com/drive/folders/1dS0VR2qzmoQW9IjdbmRcF-LFdIuDT3YR?usp=sharing).
+1. **Open the Google Drive link**: [Dataset directory](https://drive.google.com/drive/folders/1dS0VR2qzmoQW9IjdbmRcF-LFdIuDT3YR?usp=sharing).
 2. **Select the files** (e.g., .h5 and .mat) and **download** them to your local machine.
-3. **Place the downloaded files** into the (`data`) folder of the code.
+3. **Place the downloaded files** into the (`data`) directory of the code.
 
 ## Citation
 
